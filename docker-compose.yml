@@ -54,7 +54,7 @@ services:
     image: gethue/hue:latest
     ports:
       - "8888:8888"
-    network_mode: "host"
+    # network_mode: "host"
     depends_on:
       - postgres
     volumes:
